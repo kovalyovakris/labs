@@ -1,0 +1,14 @@
+D:\личная папка\labs\ksis\lab3Server\bin\Debug\net8.0\lab3Server.exe
+D:\личная папка\labs\ksis\lab3Server\bin\Debug\net8.0\lab3Server.deps.json
+D:\личная папка\labs\ksis\lab3Server\bin\Debug\net8.0\lab3Server.runtimeconfig.json
+D:\личная папка\labs\ksis\lab3Server\bin\Debug\net8.0\lab3Server.dll
+D:\личная папка\labs\ksis\lab3Server\bin\Debug\net8.0\lab3Server.pdb
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.AssemblyInfoInputs.cache
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.AssemblyInfo.cs
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.csproj.CoreCompileInputs.cache
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.dll
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\refint\lab3Server.dll
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.pdb
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\lab3Server.genruntimeconfig.cache
+D:\личная папка\labs\ksis\lab3Server\obj\Debug\net8.0\ref\lab3Server.dll
