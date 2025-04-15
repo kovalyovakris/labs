@@ -1,0 +1,14 @@
+D:\личная папка\labs\lab4ksis\bin\Release\net8.0\lab4ksis.exe
+D:\личная папка\labs\lab4ksis\bin\Release\net8.0\lab4ksis.deps.json
+D:\личная папка\labs\lab4ksis\bin\Release\net8.0\lab4ksis.runtimeconfig.json
+D:\личная папка\labs\lab4ksis\bin\Release\net8.0\lab4ksis.dll
+D:\личная папка\labs\lab4ksis\bin\Release\net8.0\lab4ksis.pdb
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.GeneratedMSBuildEditorConfig.editorconfig
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.AssemblyInfoInputs.cache
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.AssemblyInfo.cs
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.csproj.CoreCompileInputs.cache
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.dll
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\refint\lab4ksis.dll
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.pdb
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\lab4ksis.genruntimeconfig.cache
+D:\личная папка\labs\lab4ksis\obj\Release\net8.0\ref\lab4ksis.dll
