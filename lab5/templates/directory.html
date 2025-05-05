@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Файловое хранилище | {{ path }}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 500;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eaeaea;
+            vertical-align: middle;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        a {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: 500;
+            display: inline-block;
+            padding: 2px 0;
+        }
+        a:hover {
+            color: #1a5276;
+            text-decoration: underline;
+        }
+        a.directory {
+            color: #27ae60;
+        }
+        a.directory:hover {
+            color: #1e8449;
+        }
+        .file-icon {
+            margin-right: 8px;
+            width: 20px;
+            text-align: center;
+            display: inline-block;
+        }
+        .last-modified {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Файловое хранилище: {{ path }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Размер</th>
+                <th>Изменен</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>
+                    <a href="{{ item.url }}" class="{% if item.is_directory %}directory{% endif %}">
+                        <span class="file-icon">{% if item.is_directory %}{% else %}📄{% endif %}</span>
+                        {{ item.name }}{% if item.is_directory %}/{% endif %}
+                    </a>
+                </td>
+                <td>
+                    {% if item.is_directory %}
+                        —
+                    {% else %}
+                        {{ item.size|filesizeformat }}
+                    {% endif %}
+                </td>
+                <td class="last-modified">{{ item.last_modified.replace('T', ' ').split('.')[0] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
